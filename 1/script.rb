@@ -12,7 +12,7 @@ y.sort!
 
 all = 0
 
-0.upto(x.length - 1) do |c|
+x.length.times do |c|
     all  += (x[c] - y[c]).abs
 end
 pp all
